@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+		<!--<TargetFrameworks Condition="'$(LibraryFrameworks)'==''">net6.0;net45;netstandard2.1</TargetFrameworks>
+		<TargetFrameworks Condition="'$(LibraryFrameworks)'!=''">$(LibraryFrameworks)</TargetFrameworks>-->
+		<LangVersion>9.0</LangVersion>
+		<Authors>Olorundara Komolafe</Authors>
+		<Company>Termii</Company>
+		<Product>Termii.NET</Product>
+		<Description>Termii.NET is a library to utilize Termii Messaging for .NET</Description>
+		<Summary>Termii.NET is a library to utilize Termii Messaging for .NET</Summary>
+		<NeutralLanguage>en-US</NeutralLanguage>
+		<Title>Termii.NET</Title>
+		<PackageId>Termii.NET</PackageId>
+		<PackageTags>Termii.NET</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>packageIcon.png</PackageIcon>
+		<PackageIconUrl>https://www.newtonsoft.com/content/images/nugeticon.png</PackageIconUrl>
+		<PackageProjectUrl>https://www.newtonsoft.com/json</PackageProjectUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PublishRepositoryUrl>true</PublishRepositoryUrl>
+		<RootNamespace>Termii.NET</RootNamespace>
+		<AssemblyName>Termii.NET</AssemblyName>
+		<IncludeSymbols>true</IncludeSymbols>
+		<EmbedUntrackedSources>true</EmbedUntrackedSources>
+		<!--Package Validation-->
+		<EnablePackageValidation>true</EnablePackageValidation>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+	</ItemGroup>
+
+</Project>
