@@ -16,7 +16,7 @@
 		<PackageId>Termii.NET</PackageId>
 		<PackageTags>Termii.NET</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageIcon>packageIcon.png</PackageIcon>
+		<PackageIcon>Termii.png</PackageIcon>
 		<PackageIconUrl>https://raw.githubusercontent.com/flystunna/termii-dotnet/master/TermiiDotnet/Termii.png</PackageIconUrl>
 		<PackageProjectUrl>https://github.com/Flystunna/termii-dotnet</PackageProjectUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
@@ -33,5 +33,9 @@
 	  <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
-
+	<ItemGroup>
+	  <None Update="Termii.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
 </Project>

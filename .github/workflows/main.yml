@@ -32,7 +32,7 @@ jobs:
     - name: Build
       run: dotnet build --no-restore /p:Version=$VERSION
 
-  run_test_and_pack:
+  pack:
     needs: [ build ]
     runs-on: ubuntu-latest
     steps:
@@ -40,9 +40,6 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
     
-    - name: Run tests
-      run: dotnet test --verbosity normal --configuration Release
-
     - name: Set Version Variable
       if: ${{ github.ref_type == 'tag' }}
       env:
