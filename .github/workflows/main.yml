@@ -50,7 +50,7 @@ jobs:
       run: echo "VERSION=${TAG#v}" >> $GITHUB_ENV 
 
     - name: Dotnet Pack
-      run: dotnet pack NubanBankPredictionLib/NubanBankPredictionLib.csproj --configuration Release --output ${{ env.NuGetDirectory }} /p:PackageVersion=$VERSION
+      run: dotnet pack TermiiDotnet/TermiiDotnet.csproj --configuration Release --output ${{ env.NuGetDirectory }} /p:PackageVersion=$VERSION
     
     - uses: actions/upload-artifact@v3
       with:

@@ -17,8 +17,8 @@
 		<PackageTags>Termii.NET</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageIcon>packageIcon.png</PackageIcon>
-		<PackageIconUrl>https://www.newtonsoft.com/content/images/nugeticon.png</PackageIconUrl>
-		<PackageProjectUrl>https://www.newtonsoft.com/json</PackageProjectUrl>
+		<PackageIconUrl>https://raw.githubusercontent.com/flystunna/termii-dotnet/master/TermiiDotnet/Termii.png</PackageIconUrl>
+		<PackageProjectUrl>https://github.com/Flystunna/termii-dotnet</PackageProjectUrl>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<RootNamespace>Termii.NET</RootNamespace>
