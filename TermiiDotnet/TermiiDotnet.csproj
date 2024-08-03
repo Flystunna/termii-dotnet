@@ -14,7 +14,7 @@
 		<NeutralLanguage>en-US</NeutralLanguage>
 		<Title>Termii.NET</Title>
 		<PackageId>Termii.NET</PackageId>
-		<PackageTags>Termii.NET</PackageTags>
+		<PackageTags>Termii, Messaging, SMS, Nigeria, Text Messages, SMS Nigeria, Messaging Nigeria, Termii.NET</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageIconUrl>https://raw.githubusercontent.com/flystunna/termii-dotnet/master/TermiiDotnet/Termii.png</PackageIconUrl>
 		<PackageProjectUrl>https://github.com/Flystunna/termii-dotnet</PackageProjectUrl>
