@@ -12,20 +12,18 @@ namespace Termii.NET.Messaging
     public class TermiiService
     {
         private string ApiKey { get; set; }
-        private string Secret { get; set; }
         private string SenderId { get; set; }
-        private string BaseUrl { get; set; }
+
+        private readonly string BaseUrl = "https://api.ng.termii.com/api/";
 
         private Utilities _utilities;
-        public TermiiService(string apiKey, string secret, string senderId, string baseUrl)
+        public TermiiService(string apiKey, string senderId)
         {
             var httpClientFactory = new SimpleHttpClientFactory();
             _utilities = new Utilities(httpClientFactory);
 
             ApiKey = apiKey ?? throw new ArgumentNullException(nameof(apiKey));
-            Secret = secret ?? throw new ArgumentNullException(nameof(secret));
             SenderId = senderId ?? throw new ArgumentNullException(nameof(senderId));
-            BaseUrl = baseUrl ?? throw new ArgumentNullException(nameof(baseUrl));
         }
 
         /// <summary>

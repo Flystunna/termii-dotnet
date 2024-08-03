@@ -33,6 +33,7 @@
 	  <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 	<ItemGroup>
+	  <None Include="README.md" Pack="true" PackagePath="\" />
 	  <None Update="Termii.png">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </None>
