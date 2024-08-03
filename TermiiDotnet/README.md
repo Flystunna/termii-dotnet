@@ -4,6 +4,12 @@ This utility library is designed to make integrating with [Termii](https://devel
 
 ## Usage
 
+To download from [Nuget.org](https://www.nuget.org/packages/Termii.NET/)
+
+```C#
+dotnet add package Termii.NET 
+```
+
 The library has one classes `TermiiService`.
 TermiiService exposes APIs directly integrated to TERMII's API.
 
